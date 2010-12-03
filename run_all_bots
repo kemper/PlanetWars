@@ -1,0 +1,16 @@
+#!/bin/sh
+BOT=LudaV1.3   RUNS=100 nohup rake run_tcp_contest > log/LudaV1.3.out &
+BOT=LudaV1.4   RUNS=100 nohup rake run_tcp_contest > log/LudaV1.4.out &
+BOT=LudaV1.4.1 RUNS=100 nohup rake run_tcp_contest > log/LudaV1.4.1.out &
+BOT=LudaV1.4.2 RUNS=100 nohup rake run_tcp_contest > log/LudaV1.4.2.out &
+BOT=LudaV1.4.3 RUNS=100 nohup rake run_tcp_contest > log/LudaV1.4.3.out &
+#invalid input
+#BOT=LudaV1.5   RUNS=100 nohup rake run_tcp_contest > log/LudaV1.5.out &
+BOT=LudaV1.5.1 RUNS=100 nohup rake run_tcp_contest > log/LudaV1.5.1.out &
+BOT=LudaV1.5.2 RUNS=100 nohup rake run_tcp_contest > log/LudaV1.5.2.out &
+BOT=LudaV1.5.3 RUNS=100 nohup rake run_tcp_contest > log/LudaV1.5.3.out &
+BOT=LudaV1.5.4 RUNS=100 nohup rake run_tcp_contest > log/LudaV1.5.4.out &
+BOT=LudaV1.5.5 RUNS=100 nohup rake run_tcp_contest > log/LudaV1.5.5.out &
+BOT=LudaV1.5.6 RUNS=100 nohup rake run_tcp_contest > log/LudaV1.5.6.out &
+BOT=LudaV1.6   RUNS=100 nohup rake run_tcp_contest > log/LudaV1.6.out &
+
