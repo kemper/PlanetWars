@@ -24,7 +24,7 @@ def save_losses(losing_matches)
 end
 
 def play_game(map, challenger)
-  my_cmd = 'java -cp bin/ MyBot'
+  my_cmd = 'java -cp build/ MyBot'
   opp_cmd = "java -jar example_bots/#{challenger}Bot.jar"
 
   cmd = %Q{ENVIRONMENT=test java -jar tools/PlayGame.jar maps/map#{map}.txt 1000 200 log.txt "#{my_cmd}" "#{opp_cmd}"}
